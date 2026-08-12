@@ -281,6 +281,11 @@ const ContactController = {
 // ==========================================
 // 5. ROUTES
 // ==========================================
+// Add this root endpoint to serve a status message for GET /
+app.get('/', (req, res) => {
+  res.send('🚀 K Ken Electronics API is up and running!');
+});
+
 // --- Public Routes ---
 app.post('/api/admin/login', AuthController.login);
 app.get('/api/products', ProductController.getAllPublic);
