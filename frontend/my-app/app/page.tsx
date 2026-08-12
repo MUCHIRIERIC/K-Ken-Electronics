@@ -1,7 +1,9 @@
+'use client';
+
 import React, { useState, useEffect, useRef } from 'react';
 import { 
   ShoppingBag, Key, ChevronRight, ChevronLeft, ArrowLeft, 
-  Sun, Moon, ShieldCheck, Truck, RefreshCw, Award, MessageCircle, 
+  Sun, Moon, ShieldCheck, Truck, RefreshCw, Award, MessageCircle,
   Trash2, Plus, Minus, Search, Filter, X, Check
 } from 'lucide-react';
 
